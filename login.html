@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border box;
+}
+body{
+display:flex;
+margin:180px;
+
+}
+.si{
+height:230px;
+width:500px;
+padding:10px;
+border: 5px solid rgb(0, 74, 143);
+display:flex;
+flex-direction:column;
+border-radius:7px;
+margin-left: 150px;
+margin-top: 70px;
+}
+
+button{
+height:60px;
+width:70px;
+margin-left:40%;
+border-radius:7px;
+
+
+}
+
+button:hover{
+background-color: black;
+color:#fff;
+
+
+
+}
+
+input{
+height:70px;
+width: 500px;
+outline:none;
+border:none;
+border-bottom:3px solid rgb(39, 38, 38);
+
+}
+
+
+
+
+</style>
+<body>
+<div class="si"> 
+<label for="E-Mail">E-Mail </label><br>
+  <input type="text" id="E-Mail" name="E-Mail"><br>
+  <label for="Password">Password </label><br>
+  <input type="Password" id="Password" name="Password"><br><br>
+  <button onclick="mybutton()"> Submit </button>
+  
+  </div>
+  <script>
+      function mybutton(){
+  alert("login successfully");
+
+      }
+  </script>
+
+
+</body>
+</html>
